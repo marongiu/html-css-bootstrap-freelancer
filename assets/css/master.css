@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .bg-nav {
   background-color: #2C3E50;
 }
@@ -10,7 +14,6 @@
   color: #ffff;
   padding-top: 27px;
 }
-
 /* Titolo: START BOOSTRAP */
 .navbar-default .navbar-brand{
   color: #ffff;
