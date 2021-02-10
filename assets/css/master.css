@@ -1,0 +1,23 @@
+.bg-nav {
+  background-color: #2C3E50;
+}
+
+.navbar-default .navbar-brand{
+  color: #ffff;
+  font-size: 2rem;
+}
+
+.navbar-header {
+  padding: 10px 0;
+}
+
+.navbar-toggle {
+  color: #ffff;
+  padding: 0.8rem;
+}
+
+button.navbar-toggle {
+  background-color: #1ABC9C;
+  border: none;
+  border-radius: 0.5rem;
+}
