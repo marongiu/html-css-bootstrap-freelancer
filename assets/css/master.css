@@ -172,6 +172,7 @@ button.navbar-toggle {
 }
 
 .contact-form {
+  margin-top: 30px;
   font-size: 24px;
   font-family: "Lato";
   font-weight: 400;
@@ -205,4 +206,31 @@ input#send {
   border: none;
   border-radius: 10px;
 }
+
+/* Footer */
+.date-footer {
+  text-align: center;
+  margin-top: 100px;
+  background: #2C3E50;
+  color: #ffff;
+}
+
+.place {
+  padding-top: 50px;
+}
+
+.social {
+  color: #ffff;
+  font-size: 20px;
+}
+
+ul.media li {
+  display: inline-block;
+  border: 1px solid #ffff;
+  border-radius: 100%;
+  padding: 10px 12px;
+  margin-left: 20px;
+}
+
+
 /* TODO: MEDIAQUERY LARGHEZZA NAV PER DIPOSITIVI */
