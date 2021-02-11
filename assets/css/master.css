@@ -22,6 +22,11 @@ nav.navbar {
   color: #ffff;
   padding-top: 27px;
 }
+
+/* Hover sulla navbar verde */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #1ABC9C;
+}
 /* Titolo: START BOOSTRAP */
 .navbar-default .navbar-brand{
   color: #ffff;
@@ -64,6 +69,8 @@ h1 {
 .fa-star {
   color: white;
   font-size: 32px;
+  vertical-align: middle;
+  padding: 0 5px;
 }
 
 .line-section {
