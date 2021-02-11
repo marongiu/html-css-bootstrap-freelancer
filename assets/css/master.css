@@ -1,6 +1,5 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  height: 10000px;
 }
 
 nav.navbar {
@@ -211,12 +210,13 @@ input#send {
 .date-footer {
   text-align: center;
   margin-top: 100px;
+  padding-bottom: 100px;
   background: #2C3E50;
   color: #ffff;
 }
 
-.place {
-  padding-top: 50px;
+.place, .network, .freelance {
+  padding-top: 100px;
 }
 
 .social {
@@ -229,7 +229,19 @@ ul.media li {
   border: 1px solid #ffff;
   border-radius: 100%;
   padding: 10px 12px;
-  margin-left: 20px;
+  margin: 0 5px;
+}
+
+#green {
+  color: #1ABC9C;
+}
+
+.bg-credits {
+  background-color: #1A252F;
+  padding: 20px 0;
+  text-align: center;
+  color: #ffff;
+  font-family: "Lato";
 }
 
 
