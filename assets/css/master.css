@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  height: 10000px;
 }
 
 nav.navbar {
@@ -10,6 +11,7 @@ nav.navbar {
   z-index: 1;
   background-color: #2C3E50;
   padding: 10px 0px;
+  border: none;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -141,10 +143,14 @@ button.navbar-toggle {
   color: #ffff;
   border: 1px solid #ffff;
   padding: 20px;
-  border-radius: 7px;
+  border-radius: 8px;
   font-size: 20px;
   text-decoration: none;
   font-style: none;
+}
+
+.fa-download {
+  padding: 0 10px;
 }
 
 /* Bottone download con hover */
@@ -155,4 +161,48 @@ button.navbar-toggle {
 }
 
 
+
+
+/* Sezione contact */
+
+.contact {
+  margin-top: 70px;
+  color: #2C3E50;
+  text-align: center;
+}
+
+.contact-form {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+input.selection , form textarea{
+border-collapse: collapse;
+border: none;
+outline: none;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+/* Colore placeholdr input */
+::placeholder{
+  color: #2C3E50;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+}
+
+input#send {
+  font-size: 20px;
+  font-family: "Lato";
+  margin-top: 30px;
+  padding: 15px 30px;
+  color: white;
+  background: #1ABC9C;
+  border: none;
+  border-radius: 10px;
+}
 /* TODO: MEDIAQUERY LARGHEZZA NAV PER DIPOSITIVI */
