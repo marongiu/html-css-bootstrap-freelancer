@@ -41,7 +41,7 @@ button.navbar-toggle {
 }
 
 /* TITLE */
-.jumbotron  {
+.jumbotron, .bg-main  {
   background-color: #1ABC9C;
 }
 
@@ -63,7 +63,7 @@ button.navbar-toggle {
   padding: 0 5px;
 }
 
-#text {
+.text {
   font-family: "Lato";
   color: #ffff;
   padding-top: 20px;
@@ -120,6 +120,39 @@ button.navbar-toggle {
   padding: 0px 5%;
 }
 
+/* ABOUT */
+
+.bg-main {
+  margin-top: 100px;
+}
+
+.about {
+  text-align: center;
+  color: #ffff;
+}
+
+.button-download {
+  margin-top: 40px;
+  padding-bottom: 100px;
+}
+
+#download {
+  font-family: "Lato";
+  color: #ffff;
+  border: 1px solid #ffff;
+  padding: 20px;
+  border-radius: 7px;
+  font-size: 20px;
+  text-decoration: none;
+  font-style: none;
+}
+
+/* Bottone download con hover */
+
+#download:hover {
+  color: black;
+  background: #ffff;
+}
 
 
 /* TODO: MEDIAQUERY LARGHEZZA NAV PER DIPOSITIVI */
