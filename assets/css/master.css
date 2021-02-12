@@ -26,6 +26,7 @@ nav.navbar {
 .navbar-default .navbar-brand{
   color: #ffff;
   padding-top: 20px;
+  font-size: 20px;
 }
 
 .navbar > .container .navbar-brand {
@@ -76,7 +77,8 @@ button.navbar-toggle {
 
 .line {
   display: inline-block;
-  width: 100px;
+  width: 100%;
+  max-width: 90px;
   border-top: 5px solid #fff;
   border-radius: 2px;
 }
@@ -90,7 +92,8 @@ button.navbar-toggle {
 
 .line-blue {
   display: inline-block;
-  width: 100px;
+  width: 100%;
+  max-width: 90px;
   border-top: 5px solid #2C3E50;
   border-radius: 2px;
 }
@@ -226,11 +229,15 @@ input#send {
   font-size: 20px;
 }
 
+ul.media {
+  padding-right: 40px;
+}
+
 ul.media li {
   display: inline-block;
   border: 1px solid #ffff;
-  border-radius: 100%;
-  padding: 10px 12px;
+  border-radius: 50%;
+  padding: 10px 11px;
   margin: 0 5px;
 }
 
