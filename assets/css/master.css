@@ -28,6 +28,10 @@ nav.navbar {
   padding-top: 20px;
 }
 
+.navbar > .container .navbar-brand {
+  margin: 0;
+}
+
 /* NAVBAR MOBILE */
 .navbar-toggle {
   color: #ffff;
@@ -72,7 +76,7 @@ button.navbar-toggle {
 
 .line {
   display: inline-block;
-  width: 130px;
+  width: 100px;
   border-top: 5px solid #fff;
   border-radius: 2px;
 }
@@ -86,7 +90,7 @@ button.navbar-toggle {
 
 .line-blue {
   display: inline-block;
-  width: 130px;
+  width: 100px;
   border-top: 5px solid #2C3E50;
   border-radius: 2px;
 }
@@ -159,9 +163,6 @@ button.navbar-toggle {
   background: #ffff;
 }
 
-
-
-
 /* Sezione contact */
 
 .contact {
@@ -190,6 +191,7 @@ padding-bottom: 20px;
   color: #2C3E50;
 }
 
+/* Decoration input */
 textarea {
   outline: none;
   resize: none;
@@ -198,7 +200,7 @@ textarea {
 input#send {
   font-size: 20px;
   font-family: "Lato";
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 15px 30px;
   color: white;
   background: #1ABC9C;
