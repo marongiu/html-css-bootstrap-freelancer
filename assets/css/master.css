@@ -9,13 +9,13 @@ nav.navbar {
   width: 100%;
   z-index: 1;
   background-color: #2C3E50;
-  padding: 10px 0px;
+  padding: 15px 0px;
   border: none;
 }
 
 .navbar-default .navbar-nav > li > a{
   color: #ffff;
-  padding-top: 27px;
+
 }
 
 /* Hover sulla navbar verde */
@@ -30,7 +30,6 @@ nav.navbar {
 /* Titolo: START BOOSTRAP */
 .navbar-default .navbar-brand{
   color: #ffff;
-  padding-top: 20px;
   font-size: 20px;
 }
 
@@ -220,7 +219,7 @@ input#send {
 .date-footer {
   text-align: center;
   margin-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   background: #2C3E50;
   color: #ffff;
 }
@@ -230,7 +229,7 @@ input#send {
 }
 
 .place, .network, .freelance {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .social {
